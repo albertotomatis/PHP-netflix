@@ -47,8 +47,8 @@ class ActorsFilmsFixture extends TestFixture
                 'id' => 1,
                 'actor_id' => 1,
                 'film_id' => 1,
-                'created' => '2020-05-11 08:34:53',
-                'modified' => '2020-05-11 08:34:53',
+                'created' => '2020-05-13 21:00:16',
+                'modified' => '2020-05-13 21:00:16',
             ],
         ];
         parent::init();

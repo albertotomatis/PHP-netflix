@@ -43,8 +43,8 @@ class ActorsFixture extends TestFixture
                 'id' => 1,
                 'firstname' => 'Lorem ipsum dolor sit amet',
                 'lastname' => 'Lorem ipsum dolor sit amet',
-                'created' => '2020-05-11 08:34:08',
-                'modified' => '2020-05-11 08:34:08',
+                'created' => '2020-05-13 20:59:10',
+                'modified' => '2020-05-13 20:59:10',
             ],
         ];
         parent::init();

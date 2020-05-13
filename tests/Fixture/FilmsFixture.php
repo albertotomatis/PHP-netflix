@@ -53,8 +53,8 @@ class FilmsFixture extends TestFixture
                 'release_year' => 1,
                 'stars' => 1,
                 'tags' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
-                'created' => '2020-05-11 08:34:16',
-                'modified' => '2020-05-11 08:34:16',
+                'created' => '2020-05-13 20:59:41',
+                'modified' => '2020-05-13 20:59:41',
             ],
         ];
         parent::init();

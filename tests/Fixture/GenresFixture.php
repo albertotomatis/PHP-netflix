@@ -41,8 +41,8 @@ class GenresFixture extends TestFixture
             [
                 'id' => 1,
                 'name' => 'Lorem ipsum dolor sit amet',
-                'created' => '2020-05-11 08:34:25',
-                'modified' => '2020-05-11 08:34:25',
+                'created' => '2020-05-13 21:02:45',
+                'modified' => '2020-05-13 21:02:45',
             ],
         ];
         parent::init();
