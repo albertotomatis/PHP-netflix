@@ -85,6 +85,22 @@ $routes->scope('/', function (RouteBuilder $builder) {
     $builder->fallbacks();
 });
 
+
+$routes->scope('/', function (RouteBuilder $routes) {
+    $routes->setExtensions(['json']);
+    $routes->resources('Actors');
+    $routes->resources('Films');
+    $routes->resources('Genres');
+  
+});
+
+$routes->prefix('v1',function (RouteBuilder $routes) {
+    $routes->setExtensions(['json']);
+    $routes->resources('Actors');
+    $routes->resources('Films');
+    $routes->resources('Genres');
+});
+
 /*
  * If you need a different set of middleware or none at all,
  * open new scope and define routes there.
@@ -96,3 +112,4 @@ $routes->scope('/', function (RouteBuilder $builder) {
  * });
  * ```
  */
+
